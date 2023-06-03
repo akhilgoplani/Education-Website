@@ -1,0 +1,153 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background: repeating-linear-gradient(
+        50deg,
+       white,
+        white 40px,
+        #faf4ff 100px,
+        white 60px
+      );
+      
+}
+.hero
+{
+    
+    max-width:100%;
+    height:70vh;
+    z-index:5000;
+    overflow: hidden;
+   
+   
+}
+
+
+
+
+
+img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    overflow-x:hidden;
+    
+}
+
+.heroText{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    overflow-y:hidden
+   
+}
+.heromid .hide{
+    display: none;
+    
+}
+
+
+.heromid h1{
+    padding-top:4rem;
+}
+
+
+.heroText h1{
+    font-size:4rem;
+    font-weight: 800;
+    color:white;
+    overflow-y: hidden;
+    margin-top:60px;
+}
+
+.heroText p{
+    font-size:1.5rem;
+    color:white;
+    padding:0.5rem 0.2rem 0;
+    margin-bottom: 5%;
+}
+
+.heroText .show{
+    text-decoration: none;
+    padding: 1rem 2rem;
+    background-color: white;
+    border-radius:6px;
+    font-size:1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color:black;
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+ 
+ 
+   
+    
+}
+
+
+
+@media screen and (max-width:1245px)
+{
+    .container{
+        overflow:hidden;
+    }
+
+
+    img {
+     width:100%;
+        height: 100%;
+        overflow-x:hidden;
+        object-fit:cover;
+      }
+    
+    .heroText h1{
+        padding:10px 20px;
+        font-size:2.5rem;
+        
+    }
+    .heroText{
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        transform: translate(-25%,-25%);
+    }
+
+    .heroText p{
+        padding:0 0 2rem 0;
+        font-size:1.5rem;
+        margin-bottom:2%;
+       
+        
+    
+    }
+
+    .heroText .show{
+        padding:0.6rem 1.1rem;
+        border-radius:6px;
+        font-size:1rem;
+      
+       margin:0 auto;
+      text-align:center;
+      position: relative;
+      margin-left:10%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .heroText {
+      font-size: 1.5rem;
+      line-height: 1.1;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .heroText {
+      font-size: 1.5rem;
+      line-height: 1;
+    }
+  }
+

@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400&family=Poppins:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.contain{
+  background: repeating-linear-gradient(
+    50deg,
+    white,
+     white 20px,
+     #faf4ff 100px,
+     white 60px
+);
+}
+
+
+
+
+
+.cod  h2 {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 2.4rem;
+  text-align:center;
+}
+.doc  h2 {
+    font-family: "IBM Plex Serif", serif;
+    font-size: 2.4rem;
+    text-align:center;
+  }
+  .contain{
+    display:flex;
+    flex-direction:column;
+  }
+
+.cod p {
+  margin: 2rem 0;
+  color: rgba(21, 19, 60, 0.5);
+  font-weight: 400;
+  font-size: 1.6rem;
+  display: inline-block;
+}
+
+.cod span {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.il{
+ 
+    object-fit: cover;
+    display:flex;
+    position: relative;
+    overflow: hidden;
+  background-size: cover;
+  width: 100%;
+ min-height: 100vh;
+    
+}
+
+.stories-div {
+  display: flex;
+ flex-wrap: wrap;
+  gap:2rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+   }
+
+.ab {
+  min-width: 10rem;
+  width: 25vw;
+  height:30vh;
+  padding: 1rem;
+  background-color: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 0.5rem;
+  color: #15133c;
+  text-align: center;
+  
+ 
+}
+.ml{
+    text-align:center;
+    font-size:40px;
+    margin-bottom: 20px;
+    color:black;
+    
+}
+
+.gh {
+  flex-direction: row;
+  width: 100%;
+ 
+
+}
+ .cd{
+    font-size: large;
+}
+
+.ef{
+    font-size: small;
+}
+
+.gh a {
+  color: #92b4ec;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.gh a:last-child {
+  color: red;
+}
+
+.pr form {
+  display:flex;
+justify-content: center;
+align-items: center;
+  
+}
+.pagination-btn{
+  color:black;
+}
+.mn{
+  color:black;
+}
+::placeholder{
+  color:black;
+  font-weight:bold;
+}
+
+
+
+.pri input {
+  
+  padding: 1rem;
+  min-width: 20rem;
+  font-size: 1rem;
+  color:black;
+  text-transform: capitalize;
+  border: none;
+  border-bottom: 0.2rem solid #15133c;
+  outline: none;
+  
+  
+}
+
+.pagination-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  size: 20%;
+}
+  
+
+.butn {
+  padding: 0.4rem 2rem;
+  border: none;
+  font-size: 1rem;
+  background-color: #15133c;
+  color: #ffffff;
+  margin: 3rem;
+  cursor: pointer;
+  display: inline-block;
+}
+.abcde{
+  color:white;
+  text-decoration: none;
+
+}
+.abcde:hover{
+  color:green;
+  
+
+}
+
+
+
+
+.hid{
+  visibility:hidden;
+}
+
+.abcdef{
+  width:10%;
+  height:25%;
+  object-fit: cover;
+  overflow:hidden;
+
+  
+ 
+
+}
+/* responsive layout  */
+
+@media (max-width: 998px) {
+  html {
+    font-size: 56%;
+  }
+
+  .ab {
+    min-width: 45rem;
+    padding: 2.5rem;
+    height:35vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ml{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 51%;
+  }
+
+  .ab {
+    min-width: 35rem;
+    padding: 2rem;
+    height:25vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .ml{
+    font-size: 30px;
+  }
+
+  .pri input{
+    min-width:40rem;
+    font-size:2rem;
+  }
+}

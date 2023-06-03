@@ -1,0 +1,22 @@
+
+.imag{
+    border-radius:0.2rem;
+    width:8%;
+    height:100px;
+    z-index:10;
+   display:block;
+   margin-left:auto;
+   margin-right:auto;
+   margin-top:2%;
+   border-radius:50%;
+
+}
+.heading{
+    text-align:center;
+    margin-top:6%;
+}
+
+.sub{
+    text-align:center;
+    margin-top:4%;
+}
